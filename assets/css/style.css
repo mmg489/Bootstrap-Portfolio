@@ -1,14 +1,18 @@
 .container {
     color:gray;
     background-color: white;
-    margin-top:40px;
+    margin-top: 30px;
     width: 100%;
 }
 
+
 .navbar-brand {
- background-color:#4aaaa5;
- -webkit-text-fill-color:white;
- padding: 20px;
+    background-color: #4aaaa5;
+    padding: 20px;
+    border: 30px;
+    border-color: #4aaaa5;
+    -webkit-text-fill-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
@@ -31,4 +35,28 @@ footer {
     padding: 20px;
   }
 
+  .card-img2{
+      height:300px;
+      width:300px;
+  }
+  @media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        position: absolute;
+        right: 83px;
+    }
+}
+.portfolio{
+    background-color:white;
+}
+
+.card-body {
+    background-color: white;
+    width:%;
+    align-content:auto;
+    margin-top: 30px;
+    }
+
+    .card {
+        margin: 50px;
+    }
     

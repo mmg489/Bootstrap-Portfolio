@@ -1,66 +1,82 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
+    <Title>Margarita's Portfolio</Title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-    <title> Margarita's Portfolio!</title>
-  </head>
-  <body background="assets/images/stardust.png">
-    <header>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <section id="name">
-            Margarita Munoz
-        </section>
-        <nav>
-            <li>
-                <a href="index.html">
-                    About
-                </a>
-            </li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <div id="contact">
-                <li><a href="contact.html"> Contact</a></li></div>
-        </nav>
-    </header>
+<body background="assets/images/stardust.png">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand">Margarita Munoz</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link active" href="contact.html">Contact</a>
 
-    <section id="Portfolio">			 
-        <div> 
-        <h1>Portfolio</h1>
-    </div>
-       
-        <hr>
-        <div class="container2">
-                <img src="assets/images/retro1.jpg" alt="Retro1" class="porfolio_pics">
-                <div class="centered">Hangman</div>
-              </div>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-1"></div>
+    <div class="card">
+        <div id="col-md-9">
+            <div class="card-body">
+                <h1>Portfolio</h1>
+                <hr>
+            </div>
 
-                <div class="container2">
-                    <img src="assets/images/retro2.jpeg" alt="Retro2" class="porfolio_pics">
-                    <div class="centered">RPG Game</div>
-                </div>
+            <div id="portfolio" class="container">
+                    <div class="row portfolio">
+                        <div class="card">
+                            <img src="assets/images/retro1.jpg" class="card-img2" alt="Purple Sunset">
+                            <div class="card-img-overlay">
+                                <h2 class="card-title">Hangman</h2>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="assets/images/retro2.jpeg" class="card-img2" alt="Retro Vending Machines" >
+                            <div class="card-img-overlay">
+                                <h2 class="card-title">Trivia Game</h2>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="assets/images/retro3.jpeg" class="card-img2" alt="Retro Keyboard" height:>
+                            <div class="card-img-overlay">
+                                <h2 class="card-title">Rock Paper Scissors</h2>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="assets/images/retro4.jpg" class="card-img2" alt="Palm Tree Mountain Skyline">
+                            <div class="card-img-overlay">
+                                <h2 class="card-title">RPG Game</h2>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="assets/images/retro5.jpg" class="card-img2" alt="Retro Sunset">
+                            <div class="card-img-overlay">
+                                <h2 class="card-title">Rutgers Info Widget</h2>
+                            </div>
+                        </div>
             
-            <div class="container2">
-                        <img src="assets/images/retro3.jpeg" alt="Retro3" class="porfolio_pics">
-                        <div class="centered">Trivia Game</div>
-            </div>
+                    </div>
+                </div>
+    </div> </div>
 
-            <div class="container2">
-                <img src="assets/images/retro4.jpg" alt="Retro4" class="porfolio_pics">
-                <div class="centered">Rutgers Info Widget</div>
-            </div>
+        <div class="col-md-2"></div>
+    </div>
 
-             <div class="container2">
-                     <img src="assets/images/retro5.jpg" alt="Retro5" class="porfolio_pics">
-                    <div class="centered">Rock Paper Scissors</div>
-            </div>
 
-</body> 
-</section>
+</body>
 
 <footer></footer>
+
+</html>
