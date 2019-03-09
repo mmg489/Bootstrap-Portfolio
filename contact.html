@@ -3,23 +3,28 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/css/style.css">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS (If I remove the bootstrap link in line 13, changes take place)-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title> Margarita's Portfolio!</title>
   </head>
-  <header>
+<header>
     <section id="name">
         Margarita Munoz
     </section>
-    <nav>
-        <li><a href="index.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <div id="contact">
-            <li><a href="contact.html"> Contact</a></li></div>
+    <nav class="main-navigation">
+        <li class="nav-list-item">
+          <a href="index.html" class="nav-list-item">About</a></li>
+        <li class="nav-list-item">
+          <a href="portfolio.html" class="nav-list-item">Portfolio</a></li>
+        <li class="contact">
+            <li><a href="contact.html" class="nav-list-item"> Contact</a></li>
         </nav>
 </header>
 <section id="ContactBox">
