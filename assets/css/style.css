@@ -67,3 +67,7 @@ footer {
 .card-img-overlay{
     left:-20px;
 }
+#profile{
+    float:left;
+    margin-right:10px;
+}
